@@ -17,7 +17,7 @@ const currencySelectConverted = document.querySelector(".currency-select-convert
    const euroToday = data.EURBRL.high
    const bitcoinToday = data.BTCBRL.high
    const libraToday = data.GBPBRL.high
-console.log(data)
+
     // Definir moeda de origem ("Converter de")
     let conversionRateFrom = 1; // Assumimos que seja Real (BRL) por padrão
     let currencyFrom = "BRL";
